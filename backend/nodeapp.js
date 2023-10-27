@@ -8,7 +8,7 @@ app.use(
     extended: false,
   })
 );
-
+<>ciao</>
 app.use(express.static('asset'));
 
 app.get('/', (req, res) => {
